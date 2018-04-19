@@ -1,0 +1,18 @@
+Mark Klobukov
+ECEC T480 - Bitcoin and Blockchain
+4/19/2018
+Merkle Tree Assignment
+
+DIRECTORY CONTENTS:
+  *even.txt -- file with even number of transactions (from BBLearn)
+  *odd.txt -- file with odd number of transactions (from BBLearn)
+  *merkle.py -- contains MerkleTree class. Creates the tree and computes root
+  *main.py -- reads data files, constructs trees, extracts roots, and
+              compares to provided values.
+
+HOW TO RUN:
+  From command line, execute `python main.py`
+  The output will be printed to stdout. It will tell whether the
+  computed hashes correspond to the provided hashes
+
+No additional libraries required. Everything comes with default Python installation.
